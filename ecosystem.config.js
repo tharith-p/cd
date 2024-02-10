@@ -2,7 +2,7 @@
 module.exports = {
     apps: [
         {
-            name: 'qipadmin',
+            name: 'counter',
             port: '3004',
             exec_mode: 'cluster',
             instances: '1',
