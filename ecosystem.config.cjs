@@ -1,14 +1,11 @@
-
 module.exports = {
     apps: [
         {
             name: 'counter',
-            port: '3004',
+            port: '3032',
             exec_mode: 'cluster',
-            instances: '1',
-            script: 'bun',
-            watch: true,
-            args: 'run dev',
+            instances: '2',
+            script: './.output/server/index.mjs',
             env: {}
         }
     ]
