@@ -5,7 +5,8 @@ module.exports = {
             port: '3032',
             exec_mode: 'cluster',
             instances: '2',
-            script: './.output/server/index.mjs',
+            script: 'npm',
+            args: "run dev",
             env: {}
         }
     ]
