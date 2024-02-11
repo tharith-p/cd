@@ -83,7 +83,7 @@ onBeforeMount(() => {
         <h1>29th of February counter</h1>
     </div>
     <footer>
-        <p>made by <a href="http://172.16.2.9:3031"> tharith</a> ♡</p>
+        <p>made by <a target="_blank" href="http://172.16.2.9:3031"> tharith</a> ♡</p>
     </footer>
 </template>
 
